@@ -1,0 +1,32 @@
+[
+  {
+    "id": "KB001",
+    "title": "VPN Password Reset",
+    "category": "VPN",
+    "content": "Employees can reset their VPN password through the corporate password portal. Open the password portal, choose 'Reset Password', verify your identity using MFA, and create a new password."
+  },
+  {
+    "id": "KB002",
+    "title": "VPN Connection Troubleshooting",
+    "category": "VPN",
+    "content": "If the VPN does not connect, verify your internet connection, restart the VPN client, and ensure MFA approval is completed. If the issue continues, contact IT support."
+  },
+  {
+    "id": "KB003",
+    "title": "Wi-Fi Troubleshooting",
+    "category": "Network",
+    "content": "If corporate Wi-Fi is not working, disconnect and reconnect to the network, verify your credentials, and restart the device if necessary."
+  },
+  {
+    "id": "KB004",
+    "title": "Laptop Restart",
+    "category": "Laptop",
+    "content": "For a basic laptop issue, save your work and restart the laptop. If the problem continues after restart, contact IT support."
+  },
+  {
+    "id": "KB005",
+    "title": "MFA Setup",
+    "category": "Security",
+    "content": "Employees should register the approved authentication application and complete the MFA enrollment process using the instructions provided by IT."
+  }
+]

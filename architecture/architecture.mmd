@@ -1,0 +1,28 @@
+
+flowchart TD
+
+    U[User] --> UI[Streamlit UI]
+
+    UI --> A[LangGraph Agent]
+
+    A --> R{Conditional Routing}
+
+    R --> K[Knowledge Search Tool]
+    R --> L[Ticket Lookup Tool]
+    R --> C[Ticket Creation Tool]
+
+    K --> KB[(knowledge_base.json)]
+    L --> DB[(tickets.db)]
+
+    C --> EV[Employee Validation]
+    EV --> DC[Duplicate Ticket Check]
+    DC --> DB
+
+    KB --> TR[Tool Result]
+    DB --> TR
+    DC --> TR
+
+    TR --> A
+
+    A --> F[Final Response]
+    F --> UI
